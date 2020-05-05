@@ -95,7 +95,7 @@ public class FormHandphone extends AppCompatActivity {
             task.showdialog = true;
             task.message = "Proses Submit Data Harap Tunggu..";
             task.applicationContext = FormHandphone.this;
-            task.mNoteItWebUrl = urlSubmit;
+            task.mNoteItWebUrl = "submit_phone.php";
             task.execute();
         } catch (Exception e) {
             e.printStackTrace();

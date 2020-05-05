@@ -19,14 +19,14 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class AsyncInvokeURLTask extends AsyncTask<Void, Void, String> {
-    public String mNoteItWebUrl = "www.smartneasy.com";
+    public String mNoteItWebUrl = "www.lilishartini22.com";
     private ArrayList<NameValuePair> mParams;
     private OnPostExecuteListener mPostExecuteListener = null;
     private ProgressDialog dialog;
     public boolean showdialog =false;
     public String message ="Proses Data";
     //Harus diganti dengan IP Server yang digunakan
-    public String url_server ="https://siakad-altie.000webhostapp.com/xphone/";
+    public String url_server ="https://lilishartini22.000webhostapp.com/xphone/";
     public Context applicationContext;
     public static interface OnPostExecuteListener{
         void onPostExecute(String result);
